@@ -28,7 +28,7 @@ import java.util.List;
 @CrossOrigin("*")
 public class UserController {
 
-    private static final String filePrefixUrl = "http://39.97.241.159:88/layim/";
+    private static final String filePrefixUrl = "http://localhost:88/layim/";
 
     @Autowired
     private UserService userService;

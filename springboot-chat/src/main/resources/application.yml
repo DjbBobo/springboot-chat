@@ -5,7 +5,7 @@ spring:
   # 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://39.97.241.159:3306/LayIM?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/LayIM?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
     username: root
     password: 1234
     type: com.alibaba.druid.pool.DruidDataSource
@@ -23,7 +23,7 @@ spring:
     testOnReturn: false
     poolPreparedStatements: true
   redis:
-    host: 39.97.241.159
+    host: localhost
     port: 6379
 
 mybatis:
@@ -43,7 +43,7 @@ fdfs:
     width: 150
     height: 150
   tracker-list:            #TrackerList参数,支持多个
-    - 39.97.241.159:22122
+    - localhost:22122
 
 # PageHelper  插件
 pagehelper:
