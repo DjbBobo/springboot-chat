@@ -38,17 +38,17 @@
 
 ## 部分截图
 
-![image](https://github.com/DjbBobo/springboot-chat/images/1.png)
+![image](https://github.com/DjbBobo/springboot-chat/blob/master/images/1.png)
 
-![image](https://github.com/DjbBobo/springboot-chat/images/2.png)
+![image](https://github.com/DjbBobo/springboot-chat/blob/master/images/2.png)
 
-![image](https://github.com/DjbBobo/springboot-chat/images/3.png)
+![image](https://github.com/DjbBobo/springboot-chat/blob/master/images/3.png)
 
-![image](https://github.com/DjbBobo/springboot-chat/images/4.png)
+![image](https://github.com/DjbBobo/springboot-chat/blob/master/images/4.png)
 
-![image](https://github.com/DjbBobo/springboot-chat/images/5.png)
+![image](https://github.com/DjbBobo/springboot-chat/blob/master/images/5.png)
 
-![image](https://github.com/DjbBobo/springboot-chat/images/6.png)
+![image](https://github.com/DjbBobo/springboot-chat/blob/master/images/6.png)
 
-![image](https://github.com/DjbBobo/springboot-chat/images/7.png)
+![image](https://github.com/DjbBobo/springboot-chat/blob/master/images/7.png)
 
