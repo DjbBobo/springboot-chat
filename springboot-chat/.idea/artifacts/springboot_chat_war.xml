@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-chat:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-chat</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="im.war">
+      <element id="artifact" artifact-name="springboot-chat:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.UserGroupMapper">
+
+    <select id="selectUserGroupByUid" resultType="com.bo.vo.GroupVo">
+          select g.id,g.groupname,g.avatar,g.sign
+            from user_group as u, groups as g
+            where u.uid=#{uid} and u.group_id=g.id
+    </select>
+
+    <insert id="addUserGroup">
+        insert into user_group(id,uid,group_id)
+         values(#{id},#{uid},#{groupId})
+    </insert>
+
+    <select id="selectUserIdByGroupId" resultType="java.lang.String">
+        select uid
+          from user_group
+          where group_id=#{groupId}
+    </select>
+
+    <select id="selectMembersById" resultType="java.lang.Integer">
+        select count(*)
+            from user_group
+            where group_id = #{id}
+    </select>
+
+    <select id="selectUsersInfoById" resultType="User">
+        select u.id,u.username,u.sign,u.avatar
+            from user_group g left join user u
+            on g.uid=u.id and g.group_id=#{id}
+            where u.id is not null
+    </select>
+
+    <select id="selectUserGroupByUidGroupId" resultType="UserGroup">
+        select *
+         from user_group
+         where uid=#{myId} and group_id=#{groupId}
+    </select>
+
+    <select id="selectUserGroupVoByUid" resultType="com.bo.vo.GroupVo2">
+        select g.id,g.groupname,g.sign,g.avatar
+         from user_group as ug , groups as g
+         where g.id=ug.group_id and ug.uid=#{uid}
+    </select>
+
+</mapper>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.GroupsMapper">
+
+   <select id="selectOwnerById" resultType="User">
+       select u.id,u.username,u.avatar,u.sign
+        from groups g,user u
+        where g.id=#{id} and g.owner_uid=u.id
+   </select>
+
+    <insert id="addGroup">
+        insert into groups(id,groupname,avatar,owner_uid,sign)
+         values(#{id},#{groupname},#{avatar},#{ownerUid},#{sign})
+    </insert>
+
+    <select id="selectAllGroup" resultType="com.bo.vo.AllGroupVo">
+        select g.id,g.groupname,g.avatar,u.username as owner,g.sign
+         from groups as g,user as u
+         where g.owner_uid=u.id
+    </select>
+
+    <select id="searchGroup" resultType="com.bo.vo.GroupVo">
+        select id,owner_uid,groupname,avatar,sign
+         from groups
+         where id=#{groupid}
+    </select>
+
+    <select id="selectOwnerIdByGroupId" resultType="String">
+        select owner_uid
+         from groups
+         where id=#{groupId}
+    </select>
+
+    <select id="selectGroup" resultType="Groups">
+        select *
+         from groups
+         where id=#{groupId}
+    </select>
+
+
+
+</mapper>

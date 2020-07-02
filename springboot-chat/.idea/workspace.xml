@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springboot-chat:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="737d453d-a736-4ac6-9db5-21a2fc0d51a0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userli</find>
+      <find>mem</find>
+      <find>plugins</find>
+      <find>serv</find>
+      <find>selectUsersInfoById</find>
+      <find>admin</find>
+      <find>getAdmin</find>
+      <find>Using generated security password</find>
+      <find>remove</find>
+      <find>hget</find>
+      <find>E:</find>
+      <find>tomcat</find>
+      <find>Client</find>
+      <find>DOMAIN</find>
+      <find>addGr</find>
+      <find>selectUser</find>
+      <find>select</find>
+      <find>accoun</find>
+      <find>user_friend_group</find>
+      <find>selectUserById</find>
+      <find>getGro</find>
+      <find>Group</find>
+      <find>getGrou</find>
+      <find>addG</find>
+      <find>reques</find>
+      <find>Msg</find>
+      <find>getFriendGroupRequest</find>
+      <find>selectUserFriendGroupsById</find>
+      <find>refre</find>
+      <find>selectUserByUidGroupId</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/ConnectType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/ChatType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/NoticeRequestType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/NewGroupType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/NewFriendType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/OnlineType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/OfflineType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/AdminConnectType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/KeepAliveType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/type/RejectUserType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/WarStartApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/controller/LoginContoller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/utils/HttpClientUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/utils/URLEncodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/config/QQConfigInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/pojo/QQOpen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/pojo/QQUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/redis/UserKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/mapper/QQUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/QQUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/utils/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/config/MyConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/mapper/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/service/UserFriendGroupService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/mapper/UserFriendGroupMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserFriendGroupMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/service/QQUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/enums/MsgActionEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/netty/UserChannelRel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/netty/ChatHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/SpringbootQuickstartApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bo/SpringbootQuickstartApplicationTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/utils/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/netty/To.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/redis/ResultVoKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/redis/GroupKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/service/GroupsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/service/FriendRequestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/vo/ReFreshFriendVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bo/controller/TestController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_repository" />
+        <option name="mavenHome" value="C:/Enviroment/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="C:\Enviroment\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-quickstart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-quickstart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-quickstart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-quickstart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="45" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bo.utils" />
+      <recent name="com.bo.netty" />
+      <recent name="com.bo.interceptor" />
+      <recent name="com.bo.config" />
+      <recent name="com.bo.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CodeWorkbench\idea\ideaProjects\springboot-chat\src\main\resources\mapper" />
+      <recent name="E:\CodeWorkbench\idea\ideaProjects\springboot-chat\src\main\resources\templates" />
+      <recent name="E:\CodeWorkbench\idea\ideaProjects\springboot-chat\src\main\resources\static" />
+      <recent name="E:\CodeWorkbench\idea\ideaProjects\springboot-chat\src\main\java\com\bo\utils" />
+      <recent name="E:\CodeWorkbench\idea\ideaProjects\springboot-chat\src\main\java\com\bo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootQuickstartApplication">
+    <configuration name="RelativeDateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bo.utils.RelativeDateFormat" />
+      <module name="springboot-chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bo.enums.Test" />
+      <module name="springboot-chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bo.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bo.netty.Test" />
+      <module name="springboot-chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bo.type.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootQuickstartApplicationTests.sqlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bo" />
+      <option name="MAIN_CLASS_NAME" value="com.bo.SpringbootQuickstartApplicationTests" />
+      <option name="METHOD_NAME" value="sqlTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springboot-quickstart [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringbootQuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bo.SpringbootQuickstartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RelativeDateFormat" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.SpringbootQuickstartApplicationTests.sqlTest" />
+      <item itemvalue="Maven.springboot-quickstart [install]" />
+      <item itemvalue="Spring Boot.SpringbootQuickstartApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringbootQuickstartApplicationTests.sqlTest" />
+        <item itemvalue="Maven.springboot-quickstart [install]" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.RelativeDateFormat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="737d453d-a736-4ac6-9db5-21a2fc0d51a0" name="Default Changelist" comment="" />
+      <created>1589080125794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589080125794</updated>
+      <workItem from="1589080128236" duration="12422000" />
+      <workItem from="1589100269348" duration="590000" />
+      <workItem from="1589100929792" duration="22000" />
+      <workItem from="1589116734649" duration="2048000" />
+      <workItem from="1589119235072" duration="35000" />
+      <workItem from="1589176615625" duration="63000" />
+      <workItem from="1589353914976" duration="712000" />
+      <workItem from="1589376357931" duration="25000" />
+      <workItem from="1591431872221" duration="12000" />
+      <workItem from="1591598924640" duration="7861000" />
+      <workItem from="1591623317303" duration="3806000" />
+      <workItem from="1591668283739" duration="11973000" />
+      <workItem from="1591696149901" duration="1309000" />
+      <workItem from="1591707126351" duration="892000" />
+      <workItem from="1591708976404" duration="642000" />
+      <workItem from="1591710898759" duration="6007000" />
+      <workItem from="1591752825226" duration="5514000" />
+      <workItem from="1591768469838" duration="14521000" />
+      <workItem from="1591797649384" duration="10096000" />
+      <workItem from="1591841581633" duration="1905000" />
+      <workItem from="1591857761749" duration="11290000" />
+      <workItem from="1591882961339" duration="7271000" />
+      <workItem from="1591924184719" duration="304000" />
+      <workItem from="1592016018306" duration="1657000" />
+      <workItem from="1592026845864" duration="11061000" />
+      <workItem from="1592054944717" duration="11944000" />
+      <workItem from="1592099936705" duration="5391000" />
+      <workItem from="1592111243409" duration="12371000" />
+      <workItem from="1592141689992" duration="12771000" />
+      <workItem from="1592186187183" duration="4468000" />
+      <workItem from="1592202062587" duration="5888000" />
+      <workItem from="1592213125069" duration="3204000" />
+      <workItem from="1592227323987" duration="11714000" />
+      <workItem from="1592292895670" duration="27000" />
+      <workItem from="1592316266980" duration="6489000" />
+      <workItem from="1592358658281" duration="7751000" />
+      <workItem from="1592371079904" duration="10459000" />
+      <workItem from="1592399786015" duration="8668000" />
+      <workItem from="1592411229004" duration="3515000" />
+      <workItem from="1592446193573" duration="9222000" />
+      <workItem from="1592485857234" duration="9651000" />
+      <workItem from="1592531085593" duration="6106000" />
+      <workItem from="1592546451703" duration="12918000" />
+      <workItem from="1592573081574" duration="9832000" />
+      <workItem from="1592618075645" duration="3854000" />
+      <workItem from="1592634136298" duration="9924000" />
+      <workItem from="1592645169422" duration="3523000" />
+      <workItem from="1592659160895" duration="7027000" />
+      <workItem from="1592708503925" duration="1659000" />
+      <workItem from="1592729750489" duration="4332000" />
+      <workItem from="1592748064934" duration="2980000" />
+      <workItem from="1592792650917" duration="5562000" />
+      <workItem from="1592810154759" duration="4266000" />
+      <workItem from="1592833619783" duration="7488000" />
+      <workItem from="1592881458655" duration="624000" />
+      <workItem from="1592882443829" duration="822000" />
+      <workItem from="1592920012974" duration="5486000" />
+      <workItem from="1592962171311" duration="4747000" />
+      <workItem from="1592973238825" duration="3949000" />
+      <workItem from="1592983476669" duration="2917000" />
+      <workItem from="1592987587715" duration="3418000" />
+      <workItem from="1592993141512" duration="1066000" />
+      <workItem from="1593006013996" duration="11415000" />
+      <workItem from="1593052248341" duration="2456000" />
+      <workItem from="1593070636773" duration="5855000" />
+      <workItem from="1593081551870" duration="2600000" />
+      <workItem from="1593092951233" duration="8387000" />
+      <workItem from="1593135933897" duration="12415000" />
+      <workItem from="1593165494989" duration="493000" />
+      <workItem from="1593168435079" duration="7583000" />
+      <workItem from="1593179284764" duration="4053000" />
+      <workItem from="1593246744533" duration="5396000" />
+      <workItem from="1593264479159" duration="3678000" />
+      <workItem from="1593307695198" duration="615000" />
+      <workItem from="1593586043676" duration="8783000" />
+      <workItem from="1593609153839" duration="5359000" />
+      <workItem from="1593619620910" duration="828000" />
+      <workItem from="1593659807835" duration="286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SpringbootQuickstartApplicationTests_contextLoads - 2020.05.10 at 15h 35m 42s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootQuickstartApplicationTests_contextLoads - 2020.05.10 at 15h 41m 05s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootQuickstartApplicationTests_contextLoads - 2020.05.10 at 16h 15m 32s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootQuickstartApplicationTests_contextLoads - 2020.05.10 at 16h 18m 11s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootQuickstartApplicationTests_mailTest - 2020.05.10 at 16h 51m 43s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.mailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootQuickstartApplicationTests_sqlTest - 2020.06.08 at 14h 57m 05s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.sqlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootQuickstartApplicationTests_sqlTest - 2020.06.08 at 14h 57m 58s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.sqlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootQuickstartApplicationTests_sqlTest - 2020.06.08 at 14h 58m 45s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.sqlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootQuickstartApplicationTests_sqlTest - 2020.06.24 at 22h 22m 08s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.sqlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootQuickstartApplicationTests_sqlTest - 2020.06.24 at 22h 25m 18s.xml">
+      <configuration name="SpringbootQuickstartApplicationTests.sqlTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="418273000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4821803" visible="true" weight="0.33512065" />
+      <window_info id="Structure" order="1" sideWeight="0.5178197" side_tool="true" weight="0.32573727" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4639321" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.37199435" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3026874" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
+      <window_info anchor="bottom" id="Sequence" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.26340482" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48358864" visible="true" weight="0.2935657" />
+      <window_info id="Structure" order="1" sideWeight="0.51641136" side_tool="true" weight="0.3558981" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3479491" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.37199435" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3026874" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.26340482" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/mapper/UserFriendGroupMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/service/QQUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/enums/MsgActionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/netty/UserChannelRel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserGroupRelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/netty/ChatMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/utils/MailUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/SpringbootQuickstartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bo/SpringbootQuickstartApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/netty/To.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-chat.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/redis/RedisPrefixKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/redis/RedisBasePrefixKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/redis/ResultVoKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/redis/UserKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/redis/GroupKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/vo/GroupVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.34/tomcat-embed-websocket-9.0.34.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/config/QQConfigInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#897#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/config/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/config/MyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/utils/ExceptionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2225">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/service/GroupsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/pojo/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/utils/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1972#2002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/vo/GroupVo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/result/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1201">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="479" selection-start-line="479" selection-end-line="479" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="431" selection-start-line="431" selection-end-line="431" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="439" selection-start-line="439" selection-end-line="439" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.34/tomcat-embed-core-9.0.34.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/netty/ChatHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FriendGroupRelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FriendRequestMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/pojo/FriendRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/service/UserFriendGroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5800">
+          <caret line="256" column="55" selection-start-line="256" selection-start-column="55" selection-end-line="256" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3625">
+          <caret line="177" column="51" selection-start-line="177" selection-start-column="36" selection-end-line="177" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserFriendGroupMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/vo/ReFreshFriendVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/service/FriendRequestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="163" column="71" selection-start-line="163" selection-start-column="71" selection-end-line="163" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bo/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>springboot-chat:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springboot-chat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

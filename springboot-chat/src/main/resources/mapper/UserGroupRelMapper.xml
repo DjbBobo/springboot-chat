@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.UserGroupRelMapper">
+
+    <select id="selectMembersById" resultType="java.lang.Integer">
+        select count(*)
+            from user_group_rel
+            where group_id = #{id}
+    </select>
+
+    <select id="selectUsersInfoById" resultType="User">
+        select u.id,u.username,u.sign,u.avatar
+            from user_group_rel g left join user u
+            on g.uid=u.id and g.group_id=#{id}
+            where u.id is not null
+    </select>
+
+    <select id="selectUserIdByGroupId" resultType="java.lang.String">
+        select uid
+          from user_group_rel
+          where group_id=#{id} and uid!=#{mid}
+    </select>
+
+    <insert id="addUserGroupRel">
+        insert into user_group_rel(id,group_id,uid)
+         values(#{id},#{groupId},#{uid})
+    </insert>
+</mapper>

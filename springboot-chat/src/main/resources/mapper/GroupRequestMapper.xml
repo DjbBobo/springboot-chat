@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.GroupRequestMapper">
+
+    <select id="selectUnReadRequestByGroupRequest" resultType="java.lang.Integer">
+        select count(*)
+         from group_request
+         where sender_id=#{senderId} and group_id=#{groupId} and status=0
+    </select>
+
+    <insert id="insertGroupRequest">
+        insert into group_request(id,sender_id,group_id,remark)
+         values(#{id},#{senderId},#{groupId},#{remark})
+    </insert>
+
+    <select id="getUnReadGroupRequestNum" resultType="java.lang.Integer">
+        select count(*)
+         from group_request as gr,groups as g
+         where g.id=gr.group_id and g.owner_uid=#{uid} and gr.`status`=0
+    </select>
+
+    <select id="getGroupRequest" resultType="FriendRequest">
+        SELECT gr.id,gr.sender_id as my_id,g.owner_uid as friend_id,gr.group_id,gr.remark,gr.`status`,gr.time
+         from group_request as gr,groups as g
+         where gr.group_id=g.id and (gr.sender_id=#{id} or g.owner_uid=#{id})
+    </select>
+
+    <update id="setGroupRequestRead">
+        update group_request
+         set status=1
+         where
+    </update>
+</mapper>

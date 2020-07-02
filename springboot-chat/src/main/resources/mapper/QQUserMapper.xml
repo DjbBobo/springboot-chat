@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.QQUserMapper">
+
+    <select id="getQQUserByOpenId" resultType="User">
+        select u.id,u.username,u.sign,u.avatar,u.`status`
+         from qq_user as q,user as u
+         where q.qq_account=u.account and q.open_id=#{openId}
+    </select>
+
+    <insert id="addQQUser">
+        insert into qq_user(qq_account,open_id)
+         values(#{account},#{openId})
+    </insert>
+
+    <select id="selectQQUserAccountByOpenId" resultType="java.lang.String">
+        select qq_account
+         from qq_user
+         where open_id=#{openId}
+    </select>
+
+
+</mapper>

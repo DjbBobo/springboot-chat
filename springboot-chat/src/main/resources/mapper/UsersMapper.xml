@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.UsersMapper">
+
+    <select id="selectUser" resultType="User">
+       select id,account,username,sign,avatar,status
+        from user
+        where account=#{account} and password=#{password}
+    </select>
+
+    <update id="resetUserPwd">
+        update user
+         set password=#{password}
+         where account=#{account}
+    </update>
+
+    <update id="forbiddenUser">
+        update user
+         set status='forbidden'
+         where id=#{id}
+    </update>
+
+    <update id="clearForbiddenUser">
+        update user
+         set status='offline'
+         where id=#{id}
+    </update>
+
+    <select id="selectUserById" resultType="User">
+        select id,account,username,sign,avatar,status
+         from user
+         where id=#{uid}
+    </select>
+
+    <select id="selectUserByUidGroupId" resultType="User">
+        select u.id,u.account,u.username,u.sign,u.avatar,u.status,u.fakestatus
+         from friend_group_rel as f,user as u
+         where f.uid=#{uid} and f.friend_group_id=#{gid} and f.fid=u.id
+    </select>
+
+    <select id="searchFriend" resultType="User">
+        select id,username,sign,avatar
+          from user
+          where account=#{account}
+    </select>
+
+
+
+    <select id="selectMyOnlineFriend" resultType="User">
+        select f.fid as id
+         from friend_group_rel as f , user as u
+         where f.uid=#{id} and f.fid=u.id and u.status='online'
+    </select>
+
+    <update id="updateUserStatusToOnline">
+        update user
+          set fakestatus=0
+          where id=#{id}
+    </update>
+
+    <update id="updateUserTrueStatusToOnline">
+        update user
+          set status='online',fakestatus=0
+          where id=#{id}
+    </update>
+
+    <update id="updateUserStatusToOffline">
+        update user
+         set fakestatus=1
+         where id=#{id}
+    </update>
+
+    <update id="updateUserTrueStatusToOffline">
+        update user
+         set status='offline',fakestatus=1
+         where id=#{id}
+    </update>
+
+    <update id="updateUserStatusToForbidden">
+        update user
+         set status='forbidden',fakestatus=1
+         where id=#{id}
+    </update>
+
+    <update id="updateUserSign">
+        update user
+         set sign=#{sign}
+         where id=#{id}
+    </update>
+
+    <select id="seleAllUser" resultType="User">
+        select id,account,username,avatar,status
+         from user
+    </select>
+
+    <insert id="addQQUser">
+        insert into user(id,account,username,avatar)
+         values(#{id},#{account},#{username},#{avatar})
+    </insert>
+
+    <update id="updateQQUser">
+        update user
+         set username=#{username},avatar=#{avatar}
+         where account=#{account}
+    </update>
+
+    <select id="getQQUserByAccount" resultType="User">
+        select id,username,sign,avatar,status
+         from user
+         where account=#{account}
+    </select>
+
+</mapper>

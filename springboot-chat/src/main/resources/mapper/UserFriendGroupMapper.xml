@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.UserFriendGroupMapper">
+
+    <select id="selectUserFriendGroupsById" resultType="UserFriendGroup">
+        select * from user_friend_group where uid=#{uid}
+    </select>
+
+    <insert id="addUserFriendGroup">
+        insert into user_friend_group(uid,groupname)
+         values(#{id},#{groupname})
+    </insert>
+
+</mapper>

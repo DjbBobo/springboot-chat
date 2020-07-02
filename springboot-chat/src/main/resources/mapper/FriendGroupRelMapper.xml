@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.FriendGroupRelMapper">
+
+    <select id="selectFriendGroupRelById" resultType="FriendGroupRel">
+        select * from friend_group_rel where uid=#{uid}
+    </select>
+
+    <select id="selectFriendGroupRelByUidFid" resultType="FriendGroupRel">
+        select id
+         from friend_group_rel
+         where uid=#{uid} and fid=#{fid}
+    </select>
+
+    <insert id="insertFriend">
+        insert into friend_group_rel(id,uid,friend_group_id,fid)
+          values(#{id},#{uid},#{from_group},#{fid});
+    </insert>
+    
+    <select id="selectFidByUid" resultType="java.lang.Long">
+        select fid
+         from friend_group_rel
+         where uid=#{uid}
+    </select>
+
+</mapper>

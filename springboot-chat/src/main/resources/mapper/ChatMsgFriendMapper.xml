@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.ChatMsgFriendMapper">
+
+    <insert id="insertMsg">
+        insert into chat_msg_friend(id,`from`,`to`,content,`time`)
+         values(#{id},#{from},#{to},#{content},#{time})
+    </insert>
+
+    <update id="signMsg">
+        update chat_msg_friend
+         set sign=1
+         where `from`=#{from} and `to`=#{to}
+    </update>
+
+    <select id="selectUnSignMsg" resultType="com.bo.netty.MessageEntity">
+        select u.id,u.username,u.avatar,u.id as fromid,c.content,c.time as `timestamp`
+          from chat_msg_friend as c,user as u
+          where u.id=c.from and c.to=#{to} and c.sign=0
+    </select>
+
+    <select id="getFriendChatLog" resultType="com.bo.vo.ChatLogVo">
+        select u.id,u.username,u.avatar,c.time as `timestamp`,c.content
+         from chat_msg_friend  as c,user as u
+         where (c.`from`=#{from} and c.`to`=#{to} and u.id=c.`from`) or (c.`from`=#{to} and c.`to`=#{from} and u.id=c.`from`)
+         order by c.time
+    </select>
+
+</mapper>

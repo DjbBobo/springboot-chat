@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.GroupMsgSignMapper">
+
+    <insert id="insertMsg">
+        insert into group_msg_sign(id,group_msg_id,`to`)
+         values(#{id},#{groupMsgId},#{to})
+    </insert>
+
+    <update id="signMsg">
+        update group_msg_sign
+         set sign=1
+         where group_msg_id=#{groupMsgId} and `to`=#{to}
+    </update>
+
+    <select id="selectUnSignMsg" resultType="com.bo.netty.MessageEntity">
+        select cg.group_id as id,u.username as username,u.id as fromid,u.avatar,cg.content,cg.id as cid,cg.time
+         from user u,chat_msg_group cg,group_msg_sign gs
+         where u.id=cg.`from` and cg.id=gs.group_msg_id and gs.`to`=#{to} and gs.sign=0
+         order by time
+    </select>
+
+</mapper>

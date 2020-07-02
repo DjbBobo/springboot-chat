@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.FriendRequestMapper">
+
+    <insert id="sendFriendRequest">
+        insert into friend_request(id,my_id,friend_id,group_id,remark,time)
+          values(#{id},#{myId},#{friendId},#{groupId},#{remark},#{time})
+    </insert>
+
+    <select id="getFriendGroupRequest" resultType="FriendRequest">
+        select * from friend_request
+         where friend_id=#{id} or my_id=#{id}
+         order by time desc
+    </select>
+
+    <select id="getUnReadRequestNum" resultType="java.lang.Integer">
+        select count(*)
+          from friend_request
+          where friend_id=#{id} and status=0
+    </select>
+
+    <update id="setFriendGroupRequestRead">
+        update friend_request
+          set status=1
+          where friend_id=#{id} and status=0
+    </update>
+
+    <select id="selectRequestByUidFid" resultType="FriendRequest">
+        select id
+         from friend_request
+         where my_id=#{uid} and friend_id=#{fid} and (status=0 or status=1)
+    </select>
+
+    <update id="updateStausAgree">
+        update friend_request
+          set status=2,time=#{time}
+          where my_id=#{friend_id} and friend_id=#{my_id} and type = 0 and (status=1 or status=0)
+    </update>
+
+    <select id="selectUnReadRequestByUidGroupId" resultType="java.lang.Integer">
+        select count(*)
+         from friend_request
+         where type=#{type} and my_id=#{myId} and group_id=#{groupId} and status =0
+    </select>
+
+    <insert id="sendFriendGroupRequest">
+        insert into friend_request(id,my_id,friend_id,group_id,remark,type)
+         values(#{id},#{myId},#{friendId},#{groupId},#{remark},#{type})
+    </insert>
+
+    <update id="updateGroupStausAgree">
+        update friend_request
+         set status=2,time=#{time}
+         where my_id=#{myId} and group_id=#{groupId} and `type`=1 and (status=1 or status=0)
+    </update>
+
+    <update id="updateGroupStausRefuse">
+        update friend_request
+         set status=3,time=#{time}
+         where my_id=#{uid} and group_id=#{fromGroup} and `type`=1 and (status=1 or status=0)
+    </update>
+
+    <update id="updateFriendStausRefuse">
+        update friend_request
+         set status=3,time=#{time}
+         where my_id=#{myId} and friend_id=#{friendId} and `type`=0 and (status=1 or status=0)
+    </update>
+
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bo.mapper.ChatMsgGroupMapper">
+
+    <insert id="insertMsg">
+        insert into chat_msg_group(id,group_id,`from`,content,`time`)
+         values(#{id},#{groupId},#{from},#{content},#{time})
+    </insert>
+
+    <select id="getGroupChatLog" resultType="com.bo.vo.ChatLogVo">
+        select u.id,u.username,u.avatar,c.time,c.content
+         from user u,chat_msg_group as c
+         where u.id=c.`from` and c.group_id=#{groupId}
+         ORDER BY c.time
+    </select>
+</mapper>
